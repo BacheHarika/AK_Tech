@@ -1,11 +1,17 @@
 import React from "react"
 import Cards from "./Cards"
-import img1 from "../Images/img1.jpg"
-import img2 from "../Images/img2.jpg"
-import img3 from "../Images/img3.jpg"
+import img1 from "../Images/img1.jpeg"
+import img2 from "../Images/img2.jpeg"
+import img3 from "../Images/img3.jpeg"
 import img4 from "../Images/img4.jpg"
-import img5 from "../Images/img5.jpg"
-import img6 from "../Images/img6.jpg"
+import img5 from "../Images/img5.jpeg"
+import img6 from "../Images/img6.jpeg"
+// import img7 from "../Images/img7.jpg"
+import img13 from "../Images/img13.jpg"
+import img14 from "../Images/img14.jpg"
+import img15 from "../Images/img15.jpg"
+import img16 from "../Images/img16.jpg"
+
 const CarouselComponent = () => {
     const name1="adi"
     const description1=" Adi,  Director at AK & Technical Expert."
@@ -51,38 +57,38 @@ const CarouselComponent = () => {
           <div className="carousel-item active">
             <div className="d-flex justify-content-around gap-3">
               <Cards Image={img1} description={description1} name={name1} />
-              <Cards Image={img2} description={description2} name={name2} />
+              <Cards Image={img16} description={description2} name={name2} />
             </div>
           </div>
           <div className="carousel-item">
             <div className="d-flex justify-content-around gap-3">
-              <Cards Image={img3} description={description3} name={name3} />
-              <Cards Image={img4} description={description4} name={name4}/>
+              <Cards Image={img13} description={description3} name={name3} />
+              <Cards Image={img2} description={description4} name={name4}/>
             </div>
           </div>
 
           <div className="carousel-item">
             <div className="d-flex justify-content-around gap-3">
-              <Cards Image={img3}description={description5} name={name5} />
-              <Cards Image={img4}description={description6} name={name6} />
+              <Cards Image={img5}description={description5} name={name5} />
+              <Cards Image={img6}description={description6} name={name6} />
             </div>
           </div>
           <div className="carousel-item">
             <div className="d-flex justify-content-around gap-3">
-              <Cards Image={img3}description={description7} name={name7} />
-              <Cards Image={img4} description={description8} name={name8}/>
+              <Cards Image={img4}description={description7} name={name7} />
+              <Cards Image={img14} description={description8} name={name8}/>
             </div>
           </div>
           <div className="carousel-item">
             <div className="d-flex justify-content-around gap-3">
-              <Cards Image={img3} description={description9} name={name9}/>
-              <Cards Image={img4} description={description10} name={name10}/>
+              <Cards Image={img13} description={description9} name={name9}/>
+              <Cards Image={img13} description={description10} name={name10}/>
             </div>
           </div>
           <div className="carousel-item">
             <div className="d-flex justify-content-around gap-3">
-              <Cards Image={img5} description={description11} name={name11}/>
-              <Cards Image={img6}description={description12} name={name12} />
+              <Cards Image={img15} description={description11} name={name11}/>
+              <Cards Image={img16}description={description12} name={name12} />
             </div>
           </div>
         </div>
